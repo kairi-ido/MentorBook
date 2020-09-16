@@ -15,6 +15,10 @@
 		417D66F32504970E00FA19BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417D66F12504970E00FA19BA /* LaunchScreen.storyboard */; };
 		417D66FE2504970F00FA19BA /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D66FD2504970F00FA19BA /* MentorBookTests.swift */; };
 		417D67092504970F00FA19BA /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D67082504970F00FA19BA /* MentorBookUITests.swift */; };
+		417D671A2504975800FA19BA /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 417D67172504975800FA19BA /* ryo.jpg */; };
+		417D671B2504975800FA19BA /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 417D67182504975800FA19BA /* nagata.jpg */; };
+		417D671C2504975800FA19BA /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 417D67192504975800FA19BA /* taithi.jpg */; };
+		417D671E25049A8D00FA19BA /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D671D25049A8D00FA19BA /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		417D67042504970F00FA19BA /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417D67082504970F00FA19BA /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		417D670A2504970F00FA19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417D67172504975800FA19BA /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		417D67182504975800FA19BA /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		417D67192504975800FA19BA /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		417D671D25049A8D00FA19BA /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		417D66E52504970C00FA19BA /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				417D67162504975800FA19BA /* images */,
 				417D66E62504970C00FA19BA /* AppDelegate.swift */,
 				417D66E82504970C00FA19BA /* SceneDelegate.swift */,
 				417D66EA2504970C00FA19BA /* ViewController.swift */,
+				417D671D25049A8D00FA19BA /* Mentor.swift */,
 				417D66EC2504970C00FA19BA /* Main.storyboard */,
 				417D66EF2504970E00FA19BA /* Assets.xcassets */,
 				417D66F12504970E00FA19BA /* LaunchScreen.storyboard */,
@@ -126,6 +136,16 @@
 				417D670A2504970F00FA19BA /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		417D67162504975800FA19BA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				417D67172504975800FA19BA /* ryo.jpg */,
+				417D67182504975800FA19BA /* nagata.jpg */,
+				417D67192504975800FA19BA /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417D671C2504975800FA19BA /* taithi.jpg in Resources */,
+				417D671A2504975800FA19BA /* ryo.jpg in Resources */,
+				417D671B2504975800FA19BA /* nagata.jpg in Resources */,
 				417D66F32504970E00FA19BA /* LaunchScreen.storyboard in Resources */,
 				417D66F02504970E00FA19BA /* Assets.xcassets in Resources */,
 				417D66EE2504970C00FA19BA /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417D671E25049A8D00FA19BA /* Mentor.swift in Sources */,
 				417D66EB2504970C00FA19BA /* ViewController.swift in Sources */,
 				417D66E72504970C00FA19BA /* AppDelegate.swift in Sources */,
 				417D66E92504970C00FA19BA /* SceneDelegate.swift in Sources */,
